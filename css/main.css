@@ -8,10 +8,10 @@ div.container {
     border: 1px solid gray;
 }
 
-header, footer {
+header {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color:skyblue;
     clear: left;
     text-align: center;
 }
@@ -37,6 +37,14 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+
+ footer {
+     padding: 1em;
+    color: white;
+    background-color:skyblue;
+    clear: left;
+    text-align: center;
 }
 
 </style>
