@@ -3,6 +3,19 @@
 
 <style>
 
+
+/* logo at starting */
+
+img.top {
+    vertical-align: text-top;
+    
+}
+
+
+/* logo end */
+
+
+
 div.container {
     width: 100%;
     border: 1px solid gray;
