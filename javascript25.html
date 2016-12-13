@@ -22,7 +22,8 @@
           <nav>
             <ul>
                                 
-             <li><a href="javascript.html">CSS Introduction</a></li>
+                               
+              <li><a href="javascript.html">CSS Introduction</a></li>
                <li><a href="javascript1.html">Excersice-1</a></li>
                <li><a href="javascript2.html">Excersice-2</a></li>
                <li><a href="javascript3.html">Excersice-3</a></li>
@@ -65,9 +66,9 @@
           
           <article>
               
-                   <a href="javascript14.html">Back Page</a> 
+                   <a href="javascript24.html">Back Page</a> 
                      
-        <h1> If-else in JavaScript </h1>
+        <h1>creating own object in JavaScript </h1>
       
 
 </article>
@@ -75,21 +76,26 @@
               <h4>Sample Program :</h4>
               &#32; &#60;&#33;Doctype Html &#62;<br />
                &#60;html &#62;<br />
-             
+                    
+               &#60;head&#62; <br />
+                 &#60;script type="text/javascript"&#62; <br />
+                       function person(name,age){<br />
+			this.name=name;<br />
+			this.age=age;<br />
+		}	<br />
+			
+		var bucky = new person("bucky roberts",24); <br />
+		var taylor= new person("taylor swift",20);<br />
+               
+                   &#60;&#47;script&#62; <br />
+               
+               &#60;&#47;head&#62;<br />
                
                 &#60;body&#62; <br />
                   
                     &#60;script type="text/javascript"&#62; <br />
-                                  var chikencost = 200;<br />
-                                  var muttioncost = 200;<br />
-
-                                 if (chikencost = muttioncost) {<br />
-                                 document.write("cashew nuts are very tasty")<br />
-                                    }<br /> 
-                                else{<br />
-		
-                            document.write("almond nuts are very cost")<br />
-                            }<br />
+                       document.write(taylor.age);<br />
+			             document.write(bucky.name);<br />
                
                    &#60;&#47;script&#62; <br />
                
@@ -98,27 +104,36 @@
                
                
                <h4>Out Put:</h4>
-
-                    <Script type="text/javascript">
-
-				        var chikencost = 200;
-				        var muttioncost = 200;
-
-		              if (chikencost = muttioncost) {
-                        document.write("cashew nuts are very tasty")
-		              } 
-                        else{
-		
-                    document.write("almond nuts are very cost")
-                }
-
+                <head>
+	<Script type="text/javascript">
+		function person(name,age){
+			this.name=name;
+			this.age=age;
+		}	
+			
+		var bucky = new person("bucky roberts",24);
+		var taylor= new person("taylor swift",20);
 		 
-                </Script>
+    </Script>
+
+	</head>
+	<Body>
+  
+	<Script type="text/javascript">
+			
+			document.write(taylor.age);
+			document.write(bucky.name);
+		 
+    </Script>
+
+	</Body> 
+                 
+           
  <br  />
   
   <br  />
      
-                      <a href="javascript16.html">Next Page</a>  
+                      <a href="javascript26.html">Next Page</a>  
          </article>
        
         
